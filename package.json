@@ -20,11 +20,10 @@
     "type": "git",
     "url": "https://github.com/embeddedfactor/node-mifare.git"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "libfreefare-pcsc": "git+https://github.com/embeddedfactor/libfreefare-pcsc.git",
-    "nan": "2.5.0",
+    "nan": "2.14.0",
     "ndef": "0.2.0"
   }
 }
