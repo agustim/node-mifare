@@ -5,7 +5,7 @@
   "targets": [
     {
       "target_name": "node_mifare",
-      "dependencies": ["node_modules/libfreefare-pcsc/binding.gyp"],
+      "dependencies": ["node_modules/libfreefare-pcsc/binding.gyp#master"],
       "conditions": [
         ['OS=="linux"', {
           "variables": { "ARCH%": "<!(uname -m | grep ^arm && echo arm || /bin/true)", },
