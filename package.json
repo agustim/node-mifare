@@ -18,11 +18,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/embeddedfactor/node-mifare.git"
+    "url": "https://github.com/agustim/node-mifare.git"
   },
   "dependencies": {},
   "devDependencies": {
-    "libfreefare-pcsc": "git+https://github.com/embeddedfactor/libfreefare-pcsc.git",
+    "libfreefare-pcsc": "git+https://github.com/agustim/libfreefare-pcsc.git",
     "nan": "2.14.0",
     "ndef": "0.2.0"
   }
